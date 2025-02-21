@@ -36,7 +36,6 @@ int main(){
     memset(vis,false,sizeof(vis));
     memset(level,-1,sizeof(level));
     bfs(src);
-    cout<<"the shortest distance from "<<src<<" to "<<dst<<" is "<<level[dst]<<endl;
-
+    
     return 0;
 }
